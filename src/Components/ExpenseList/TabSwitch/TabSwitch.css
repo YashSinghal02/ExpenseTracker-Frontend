@@ -1,0 +1,46 @@
+/* tab wrapper */
+.tab-grid {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  margin: 30px 0 35px;
+  flex-wrap: wrap;
+}
+
+
+/* pill style tab */
+.first-Categories {
+  padding: 8px 20px;
+  /* min-width: 90px; */
+
+  border-radius: 999px;
+  border: 1px solid #475569;
+
+  background: #0f172a;
+  color: #cbd5e1;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+/* hover */
+.first-Categories:hover {
+  background: #334155;
+  color: white;
+}
+
+/* active */
+.first-Categories.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+
+/* content spacing */
+.tab-content {
+  margin-top: 25px;
+}

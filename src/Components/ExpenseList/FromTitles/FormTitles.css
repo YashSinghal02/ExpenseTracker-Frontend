@@ -1,0 +1,19 @@
+.formtitle-only {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr;
+
+  padding: 14px 18px;
+  margin: 18px 0;
+
+  background: #0f172a;
+  border-radius: 10px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  color: #cbd5e1;
+}
+
+.title1 h4 {
+  font-size: 15px;
+}

@@ -1,0 +1,140 @@
+/* =============================
+   WRAPPER
+============================= */
+
+.form-actual-data1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+/* =============================
+   ROW STYLE (DESKTOP TABLE)
+============================= */
+
+.form-actual-data {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr;
+
+  align-items: center;
+
+  padding: 14px 18px;
+
+  background: #0f172a;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+
+  font-size: 16px;
+  color: #e2e8f0;
+
+  transition: 0.2s ease;
+}
+
+
+/* hover */
+.form-actual-data:hover {
+  background: #0f172a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 1px rgba(0, 0, 0, 0.121);
+}
+
+
+
+/* =============================
+   TEXT COLORS
+============================= */
+
+.form-title h5 {
+  font-weight: 500;
+}
+
+.form-category h5 {
+  color: #93c5fd;
+}
+
+.form-amount h5 {
+  font-weight: 600;
+  color: #22c55e;
+}
+
+.form-date h5 {
+  color: #cbd5e1;
+}
+
+
+
+/* =============================
+   ACTION BUTTONS
+============================= */
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.edit-btn,
+.delete-btn {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+  font-size: 16px;
+
+  transition: 0.2s;
+}
+
+
+/* edit */
+.edit-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #3b82f6;
+  transform: scale(1.1);
+}
+
+
+/* delete */
+.delete-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #ef4444;
+  transform: scale(1.1);
+}
+
+
+
+/* =============================
+   📱 RESPONSIVE 650px
+   (2x2 grid layout)
+============================= */
+
+@media (max-width: 650px) {
+
+  .form-actual-data {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 8px;
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  /* action takes full width */
+  .form-actions {
+    grid-column: span 2;
+    justify-content: flex-end;
+  }
+}

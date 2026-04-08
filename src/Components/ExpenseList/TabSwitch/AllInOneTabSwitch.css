@@ -1,0 +1,33 @@
+/* .AllInOneTabSwitch{
+    margin: 50px auto;
+}
+
+.first-Categories {
+  width: 140px;
+  height: 140px;
+  border: 2px solid #b6b6b6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.first-Categories:hover {
+  background:rgb(19, 142, 229);
+  color: #fff;
+}
+
+.first-Categories.active {
+  background:rgb(255, 45, 45);
+  color: #fff;
+  border-color: rgb(255, 45, 45);
+}
+
+.first-Categories.active .cat-icon {
+  color: #fff;
+} */

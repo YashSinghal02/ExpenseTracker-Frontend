@@ -1,0 +1,72 @@
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 column */
+    gap: 14px 18px;
+}
+
+/* Each field group */
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+/* labels */
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #cbd5e1;
+}
+
+/* inputs */
+input,
+select{
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus{
+    border-color: #3b82f6;
+}
+
+#submit-btn{
+    background: #3b82f6;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    /* ⭐ center button */
+    grid-column: span 2;
+    justify-self: center;
+
+    transition: 0.2s;
+}
+
+#submit-btn:hover{
+    /* transform: translateY(-2px); */
+    background-color:#4186f6dc ;
+}
+#submit-btn:active{
+    transform: scale(0.97);
+    background-color:#4186f6dc ;
+}
+input[type="date"]{
+    color-scheme: auto;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

@@ -1,0 +1,37 @@
+.toatlexpnesecard{
+    width: 100%;
+    background: linear-gradient(135deg,#3b82f6,#2563eb);
+    padding: 35px 25px;
+    border-radius: 18px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.money-txt h3{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.9;
+    margin-bottom: 8px;
+}
+
+.money-txt h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.indian-rupee{
+    margin-right: 6px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.rupee{
+    font-size: 28px;
+}
